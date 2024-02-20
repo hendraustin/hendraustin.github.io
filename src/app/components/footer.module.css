@@ -14,5 +14,20 @@
     color: #000000;
     text-align: center;
     padding: 14px;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.github_icon:hover {
+    color: #2dba4e;
+    transition: .25s;
+}
+
+.linkedin_icon:hover {
+    color: #0077B5;
+    transition: .25s;
+}
+
+.gmail_icon:hover{
+    color: #c71610;
+    transition: .25s;
 }

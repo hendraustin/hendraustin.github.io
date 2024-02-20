@@ -7,13 +7,13 @@ export default function Footer() {
     <div className={styles.footer}>
       <span></span>
       <a href="https://github.com/hendraustin">
-        <FaGithub />
+        <FaGithub className={styles.github_icon} />
       </a>
       <a href="https://www.linkedin.com/in/hendricks-austin/">
-        <FaLinkedin />
+        <FaLinkedin className={styles.linkedin_icon} />
       </a>
       <a href="mailto: hendraustin@gmail.com">
-        <MdOutlineMail />
+        <MdOutlineMail className={styles.gmail_icon}/>
       </a>
     </div>
   );
