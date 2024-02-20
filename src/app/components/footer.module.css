@@ -1,0 +1,18 @@
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+ }
+
+.footer a {
+    float: right;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+}
