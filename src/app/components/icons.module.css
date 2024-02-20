@@ -1,20 +1,25 @@
-.footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+.icons {
+    padding-top: 6rem;
     width: 100%;
     background-color: transparent;
     color: white;
     text-align: center;
+    scroll-behavior: smooth;
  }
 
-.footer a {
-    float: right;
+.icons a {
+    float: left;
     text-decoration: none;
-    color: #000000;
+    color: #646464;
     text-align: center;
-    padding: 14px;
     font-size: 30px;
+    border-top: 4rem;
+    padding-right: 1rem;
+}
+
+.icon:hover {
+    color: #000000;
+    transition: .25s;
 }
 
 .github_icon:hover {
