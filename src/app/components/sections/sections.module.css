@@ -1,40 +1,70 @@
 .about {
-    height: 33%;
+    height: 25%;
     font-size: 1.2rem;
     top: 0;
 }
 
 .experience {
-    height: 33%;
-    font-size: 1.2rem;
+    height: 45%;
     top: 0;
-}
-
-.experience {
     box-sizing: border-box;
     list-style-type: none;
-}
-
-.experience_header {
     overflow: hidden;
     background: transparent;
-}
-  
-.experience_header h1 {
-    float: left;
-    color: #000000;
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 1.2rem;
+    padding-right: 5rem;
 }
 
-.experience_header h2 {
-    float: right;
+.experience h1,
+.experience h2 {
+    margin: 0;
+    padding: 0;
     color: #000000;
     text-decoration: none;
     font-weight: normal;
     font-size: 1.2rem;
-    padding-right: 5rem;
+}
+  
+.experience h1 {
+    float: left;
+}
+
+.experience h2 {
+    float: right;
+}
+
+.experience br {
+    clear: both;
+}
+
+.experience p {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    padding-top: 1rem;
+}
+
+.experience ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0.5rem;
+    padding-right: 3.5rem;
+    padding-bottom: 3rem;
+}
+
+.experience li {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.experience a {
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
 .projects {
