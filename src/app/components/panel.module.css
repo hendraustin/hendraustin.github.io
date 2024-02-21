@@ -4,7 +4,7 @@
 
 .left_panel {
     position: sticky;
-    height: 100vh;
+    height: 100%;
     width: 50%;
     background-color: transparent;
     box-sizing: border-box;
