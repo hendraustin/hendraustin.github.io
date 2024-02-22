@@ -1,0 +1,48 @@
+.flexbox {
+    display: flex;
+}
+
+.left_panel {
+    position: sticky;
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding-left: 8rem;
+    padding-top: 4rem;
+    top: 0;
+    text-decoration: none;
+}
+
+.left_panel h1 {
+    margin-bottom: 0;
+}
+
+.left_panel h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sections {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.sections li {
+    list-style-type: none;
+    padding-top: .8rem;
+}
+
+.sections a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.right_panel {
+    height: 100rem;
+    width: 50%;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding-right: 15rem;
+    padding-top: 4rem;
+}

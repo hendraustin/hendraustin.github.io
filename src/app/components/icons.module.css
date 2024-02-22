@@ -1,0 +1,38 @@
+.icons {
+    padding-top: 6rem;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    scroll-behavior: smooth;
+ }
+
+.icons a {
+    float: left;
+    text-decoration: none;
+    color: #646464;
+    text-align: center;
+    font-size: 30px;
+    border-top: 4rem;
+    padding-right: 1rem;
+}
+
+.icon:hover {
+    color: #000000;
+    transition: .25s;
+}
+
+.github_icon:hover {
+    color: #2dba4e;
+    transition: .25s;
+}
+
+.linkedin_icon:hover {
+    color: #0077B5;
+    transition: .25s;
+}
+
+.gmail_icon:hover{
+    color: #c71610;
+    transition: .25s;
+}
