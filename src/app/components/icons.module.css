@@ -36,3 +36,12 @@
     color: #c71610;
     transition: .25s;
 }
+
+.cat_icon {
+    color: transparent;
+}
+
+.cat_icon:hover {
+    color: #000000;
+    transition: .45s;
+}

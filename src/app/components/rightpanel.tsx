@@ -1,6 +1,7 @@
 import styles from "./panel.module.css";
 import About from "./sections/about";
 import Experience from "./sections/experience";
+import Footer from "./sections/footer";
 import Projects from "./sections/projects";
 
 export default function RightPanel() {
@@ -9,6 +10,7 @@ export default function RightPanel() {
       <About />
       <Experience />
       <Projects />
+      <Footer />
     </div>
   );
 }
