@@ -1,5 +1,6 @@
+"use client";
 import styles from "./icons.module.css";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaCat, FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 
 export default function Icons() {
@@ -14,6 +15,9 @@ export default function Icons() {
       </a>
       <a href="mailto: hendraustin@gmail.com">
         <MdOutlineMail className={styles.icon} />
+      </a>
+      <a href="../../static/pam_cat.jpeg">
+        <FaCat className={styles.cat_icon} />
       </a>
     </div>
   );
