@@ -9,18 +9,25 @@
     background-color: transparent;
     box-sizing: border-box;
     padding-left: 12rem;
-    padding-top: 3.75rem;
+    padding-top: 3rem;
     top: 0;
     text-decoration: none;
 }
 
 .left_panel h1 {
     margin-bottom: 0;
+    font-size: 2.5rem;
+    opacity: 1;
 }
 
 .left_panel h2 {
     margin-top: 0;
     margin-bottom: 0;
+    opacity: 1;
+}
+
+.left_panel p {
+    opacity: .6;
 }
 
 .sections {
@@ -36,6 +43,20 @@
 .sections a {
     font-size: 1rem;
     text-decoration: none;
+    padding-left: 0;
+    transition: padding-left 0.2s;
+    color: rgb(41, 141, 144);
+}
+
+.sections a:visited { 
+    text-decoration: none;
+    color: rgb(36, 201, 207);
+}
+
+.sections a:hover {
+    padding-left: 1rem;
+    text-decoration: none;
+    color: rgb(43, 247, 254);
 }
 
 .right_panel {

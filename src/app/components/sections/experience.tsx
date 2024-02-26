@@ -29,8 +29,8 @@ export default function Experience() {
       <br />
       <h1>Software Engineer Intern</h1>
       <p>
-        Worked on various projects in varying languages while earning Bachelor&apos;s degree, such as
-        requirements gathering and building MVP Flutter mobile application for a client, meeting
+        Worked on various projects in varying languages while earning Bachelor&apos;s degree, such
+        as requirements gathering and building MVP Flutter mobile application for a client, meeting
         weekly to discuss current progress. Also, implemented a regression test suite for
         client-facing site, incorporating 200+ tests into a CI/CD workflow to ensure code integrity
         during merges.
