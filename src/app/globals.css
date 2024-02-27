@@ -113,6 +113,11 @@ a {
   font-style: none;
 }
 
+
+* {
+  scroll-behavior: smooth;
+}
+
 html {
   font-family: 'Inter';
   background-color: #042a3c;
@@ -120,5 +125,4 @@ html {
 
 body {
   color: white;
-  opacity: .8.5;
 }
