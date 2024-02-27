@@ -6,7 +6,7 @@ import Projects from "./sections/projects";
 
 export default function RightPanel() {
   return (
-    <div className={styles.right_panel}>
+    <div id="top" className={styles.right_panel}>
       <About />
       <Experience />
       <Projects />
