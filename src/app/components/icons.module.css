@@ -1,32 +1,24 @@
 .icons {
     padding-top: 6rem;
     width: 100%;
-    background-color: transparent;
-    color: white;
-    text-align: center;
-    scroll-behavior: smooth;
  }
 
-.icons a {
-    float: left;
-    text-decoration: none;
-    color: #646464;
-    text-align: center;
-    font-size: 30px;
-    border-top: 4rem;
-    padding-right: 1rem;
-}
+ .icon,
+ .cat_icon {
+     float: left;
+     text-decoration: none;
+     color: #646464;
+     font-size: 30px;
+     margin-top: 4rem;
+     padding-right: 1rem;
+     transition: color .25s;
+ }
 
-.icon:hover {
-    color: white    ;
-    transition: .25s;
-}
-
-.cat_icon {
+ .cat_icon {
     color: transparent;
 }
 
-.cat_icon:hover {
+ .icon:hover,
+ .cat_icon:hover {
     color: rgb(202, 202, 202);
-    transition: .45s;
-}
+ }

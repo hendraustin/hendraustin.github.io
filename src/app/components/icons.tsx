@@ -7,17 +7,17 @@ export default function Icons() {
   return (
     <div className={styles.icons}>
       <span></span>
-      <a href="https://github.com/hendraustin">
-        <FaGithub className={styles.icon} />
+      <a href="https://github.com/hendraustin" className={styles.icon}>
+        <FaGithub />
       </a>
-      <a href="https://www.linkedin.com/in/hendricks-austin/">
-        <FaLinkedin className={styles.icon} />
+      <a href="https://www.linkedin.com/in/hendricks-austin/" className={styles.icon}>
+        <FaLinkedin />
       </a>
-      <a href="mailto: hendraustin@gmail.com">
-        <MdOutlineMail className={styles.icon} />
+      <a href="mailto: hendraustin@gmail.com" className={styles.icon}>
+        <MdOutlineMail />
       </a>
-      <a href="../../static/pam_cat.jpeg">
-        <FaCat className={styles.cat_icon} />
+      <a href="../../static/pam_cat.jpeg" className={styles.cat_icon}>
+        <FaCat />
       </a>
     </div>
   );
