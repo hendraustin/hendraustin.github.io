@@ -1,5 +1,5 @@
 import styles from "./sections.module.css";
-
+import { FaExternalLinkAlt } from "react-icons/fa";
 export default function Experience() {
   return (
     <div id="experience" className={styles.experience}>
@@ -46,7 +46,7 @@ export default function Experience() {
       </ul>
 
       <a href="../static/resume.pdf" target="_blank" rel="noopener noreferrer">
-        View Full Resume
+        View Full Resume <FaExternalLinkAlt style={{ fontSize: ".875rem" }} />
       </a>
     </div>
   );
