@@ -10,11 +10,13 @@ export default function Icons() {
     setModalOpen(true);
   };
 
-  let modal = document.getElementById("modal");
-  modal?.addEventListener("click", function () {
-    this.style.display = "none";
-    setModalOpen(false);
-  });
+  useEffect(() => {
+    let modal = document.getElementById("modal");
+    modal?.addEventListener("click", function () {
+      this.style.display = "none";
+      setModalOpen(false);
+    });
+  }, []);
 
   return (
     <div className={styles.icons}>
