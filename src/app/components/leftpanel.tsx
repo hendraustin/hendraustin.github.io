@@ -9,7 +9,7 @@ export default function LeftPanel() {
       <p>Doing my best to do my best.</p>
       <div className={styles.sections}>
         <li>
-          <a href="#about">ABOUT</a>
+          <a href="#top">ABOUT</a>
         </li>
         <li>
           <a href="#experience">EXPERIENCE</a>
