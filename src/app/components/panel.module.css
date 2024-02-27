@@ -12,6 +12,7 @@
     padding-top: 3rem;
     top: 0;
     text-decoration: none;
+    z-index: 999;
 }
 
 .left_panel h1 {
