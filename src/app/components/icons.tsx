@@ -19,13 +19,13 @@ export default function Icons() {
   return (
     <div className={styles.icons}>
       <span></span>
-      <a href="https://github.com/" className={styles.icon} id="githubIcon">
+      <a href="https:/hendraustin/github.com/" className={styles.icon} id="githubIcon">
         <FaGithub />
       </a>
-      <a href="https://www.linkedin.com/in/" className={styles.icon}>
+      <a href="https://www.linkedin.com/in/hendricks-austin" className={styles.icon}>
         <FaLinkedin />
       </a>
-      <a href="mailto: @gmail.com" className={styles.icon}>
+      <a href="mailto: hendraustin@gmail.com" className={styles.icon}>
         <MdOutlineMail />
       </a>
       <a className={styles.cat_icon} onClick={handleClick}>
