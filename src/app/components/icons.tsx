@@ -21,7 +21,7 @@ export default function Icons() {
   return (
     <div className={styles.icons}>
       <span></span>
-      <a href="https:/hendraustin/github.com/" className={styles.icon} id="githubIcon">
+      <a href="https:/github.com/hendraustin" className={styles.icon} id="githubIcon">
         <FaGithub />
       </a>
       <a href="https://www.linkedin.com/in/hendricks-austin" className={styles.icon}>
