@@ -11,7 +11,7 @@
      font-size: 30px;
      margin-top: 4rem;
      padding-right: 1rem;
-     transition: color .25s;
+     transition: color 0.25s;
  }
 
  .cat_icon {
