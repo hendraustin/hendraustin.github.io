@@ -1,5 +1,5 @@
 import styles from "./sections.module.css";
-
+import { FaExternalLinkAlt } from "react-icons/fa";
 export default function Experience() {
   return (
     <div id="experience" className={styles.experience}>
@@ -29,8 +29,8 @@ export default function Experience() {
       <br />
       <h1>Software Engineer Intern</h1>
       <p>
-        Worked on various projects in varying languages while earning Bachelor&apos;s degree, such as
-        requirements gathering and building MVP Flutter mobile application for a client, meeting
+        Worked on various projects in varying languages while earning Bachelor&apos;s degree, such
+        as requirements gathering and building MVP Flutter mobile application for a client, meeting
         weekly to discuss current progress. Also, implemented a regression test suite for
         client-facing site, incorporating 200+ tests into a CI/CD workflow to ensure code integrity
         during merges.
@@ -46,7 +46,7 @@ export default function Experience() {
       </ul>
 
       <a href="../static/resume.pdf" target="_blank" rel="noopener noreferrer">
-        View Full Resume
+        View Full Resume <FaExternalLinkAlt style={{ fontSize: ".875rem" }} />
       </a>
     </div>
   );

@@ -17,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Panels />
+      <body>
+        <Panels />
+      </body>
     </html>
   );
 }

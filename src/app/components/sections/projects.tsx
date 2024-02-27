@@ -19,7 +19,7 @@ export default function Projects() {
         <li>Google API</li>
       </ul>
 
-      <h1>Restaurant Picker</h1>
+      <h1>hendraustin.vercel.app</h1>
       <br />
       <p>
         Portfolio site built to expand my knowledge of Next.js, and spending more time with frontend
