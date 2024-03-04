@@ -7,7 +7,7 @@
  .cat_icon {
      float: left;
      text-decoration: none;
-     color: #646464;
+     color: #739072;
      font-size: 30px;
      margin-top: 4rem;
      padding-right: 1rem;
@@ -20,7 +20,8 @@
 
  .icon:hover,
  .cat_icon:hover {
-    color: rgb(202, 202, 202);
+    color: #4F6F52;
+    cursor: pointer;
  }
 
 .modal {
