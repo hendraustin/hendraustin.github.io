@@ -113,16 +113,15 @@ a {
   font-style: none;
 }
 
-
 * {
   scroll-behavior: smooth;
 }
 
 html {
   font-family: 'Inter';
-  background-color: #042a3c;
+  background-color: #D7E4C0;
 }
 
 body {
-  color: white;
+  color: rgb(56, 56, 56);
 }
