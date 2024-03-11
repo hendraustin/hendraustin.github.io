@@ -5,7 +5,6 @@
 .left_panel,
 .right_panel {
     position: sticky;
-    width: 50%;
     top: 0;
     bottom: 0;
     background-color: transparent;
@@ -15,8 +14,9 @@
 
 .left_panel {
     height: 100%;
+    width: 50vw;
     padding-top: 3rem;
-    padding-left: 12rem;
+    padding-left: 12%;
     left: 0;
     z-index: 999;
 }
@@ -33,6 +33,14 @@
 
 .left_panel p {
     opacity: .6;
+}
+
+.right_panel {
+    position: sticky;
+    width: 50vw;
+    right: 0;
+    padding-top: 4rem;
+    padding-right: 5vw;
 }
 
 .sections {
@@ -64,9 +72,22 @@
     color: #4F6F52;
 }
 
-.right_panel {
-    position: sticky;
-    right: 0;
-    padding-top: 4rem;
-    padding-right: 10rem;
+@media screen and (min-width: 900px) {
+    .left_panel {
+        width: 45vw;
+    }
+    .right_panel {
+        width: 55vw;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .flexbox { 
+        display: block;
+    }
+    .left_panel, .right_panel {
+        padding: 0;
+        width: 100vw;
+        position: static;
+    }
 }
