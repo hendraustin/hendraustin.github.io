@@ -7,6 +7,7 @@
     position: sticky;
     top: 0;
     bottom: 0;
+    width: 50%;
     background-color: transparent;
     box-sizing: border-box;
     overflow-y: auto;
@@ -14,8 +15,7 @@
 
 .left_panel {
     height: 100%;
-    width: 50vw;
-    padding-top: 3rem;
+    padding-top: 3%;
     padding-left: 12%;
     left: 0;
     z-index: 999;
@@ -37,15 +37,20 @@
 
 .right_panel {
     position: sticky;
-    width: 50vw;
     right: 0;
-    padding-top: 4rem;
+    padding-top: 4%;
     padding-right: 5vw;
 }
 
 .sections {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding: 4rem 0 4rem;
+}
+
+@media screen and (max-width: 950px) {
+    .sections {
+        padding: 1% 0 1%;
+
+    }
 }
 
 .sections li {
@@ -53,16 +58,12 @@
     padding-top: .8rem;
 }
 
-.sections a {
+.sections a,
+.sections a:visited {
     font-size: 1rem;
     text-decoration: none;
     letter-spacing: 1px;
     transition: padding-left 0.2s;
-    color: #739072;
-}
-
-.sections a:visited { 
-    text-decoration: none;
     color: #739072;
 }
 
@@ -72,7 +73,7 @@
     color: #4F6F52;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 950px) {
     .left_panel {
         width: 45vw;
     }
@@ -86,7 +87,8 @@
         display: block;
     }
     .left_panel, .right_panel {
-        padding: 0;
+        padding-left: 2%;
+        padding-right: 5%;
         width: 100vw;
         position: static;
     }

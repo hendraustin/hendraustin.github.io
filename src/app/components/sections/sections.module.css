@@ -1,5 +1,4 @@
 .about, .experience, .projects, .footer {
-    padding-right: 2rem;
     font-kerning: none;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
@@ -12,7 +11,7 @@
     opacity: 1;
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1600px) {
+@media screen and (min-width: 1350px) and (max-width: 1600px) {
     .about {
         padding-right: 15%;
     }
@@ -39,11 +38,11 @@
 }
 
 
-@media screen and (min-width: 950px) and (max-width: 1100px) {
+@media screen and (min-width: 950px) and (max-width: 1600px) {
     .experience_item,
     .project_item,
     .resume_item {
-        width: 45vw;
+        width: 35vw;
     }
 }
 

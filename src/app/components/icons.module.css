@@ -3,6 +3,12 @@
     width: 100%;
  }
 
+ @media screen and (max-width: 950px) {
+    .icons {
+        padding-top: 1rem;
+    }
+}
+
  .icon,
  .cat_icon {
      float: left;
