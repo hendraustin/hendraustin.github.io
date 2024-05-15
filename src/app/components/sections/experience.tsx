@@ -4,6 +4,26 @@ export default function Experience() {
   return (
     <div id="experience" className={styles.experience}>
       <div className={styles.experience_item}>
+        <h1>Phomo</h1>
+        <h2>2024 - Present</h2>
+        <br />
+        <h1>Software Engineer</h1>
+        <p>
+          Implementing a React Native application to automate a photogrammetry process for
+          generating 3D models as an initial MVP to share with stakeholders. Currently utilizing AWS
+          Amplify to quickly standup authentication and storage through Cognito and S3. Lastly,
+          building and deploying the application for internal testing through Expo with Expo
+          Application Services.
+        </p>
+        <ul>
+          <li>TypeScript</li>
+          <li>React Native</li>
+          <li>AWS</li>
+          <li>Expo</li>
+        </ul>
+      </div>
+
+      <div className={styles.experience_item}>
         <h1>Generac Power Systems</h1>
         <h2>2022 - 2023</h2>
         <br />

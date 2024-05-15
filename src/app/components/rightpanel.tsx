@@ -7,10 +7,12 @@ import Projects from "./sections/projects";
 export default function RightPanel() {
   return (
     <div id="top" className={styles.right_panel}>
-      <About />
-      <Experience />
-      <Projects />
-      <Footer />
+      <div id="container">
+        <About />
+        <Experience />
+        <Projects />
+        <Footer />
+      </div>
     </div>
   );
 }
