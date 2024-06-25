@@ -1,7 +1,6 @@
 export const data = {
   experience: [
     {
-      id: 0,
       name: "Phomo",
       date: "2024 - Present",
       title: "Software Engineer I (Contract)",
@@ -13,7 +12,6 @@ export const data = {
       tools: ["TypeScript", "React Native", "AWS", "Expo"],
     },
     {
-      id: 1,
       name: "Generac Power Systems",
       date: "2022 - 2023",
       title: "Software Engineer I",
@@ -35,7 +33,6 @@ export const data = {
       ],
     },
     {
-      id: 2,
       name: "Generac Power Systems",
       date: "2020 - 2022",
       title: "Software Engineer Intern",
@@ -49,7 +46,6 @@ export const data = {
   ],
   projects: [
     {
-      id: 0,
       name: "Book Werm",
       link: "https://github.com/hendraustin/book-werm",
       description: `Inventory management web app for bookstores, with the intent to integrate with POS systems
@@ -57,7 +53,6 @@ export const data = {
       tools: ["TypeScript", "React", "Redux", "Express", "PostgreSQL", "AWS", "Google API"],
     },
     {
-      id: 1,
       name: "hendraustin.vercel.app",
       link: "https://github.com/hendraustin/hendraustin.github.io",
       description: `Portfolio site built to expand my knowledge of Next.js, and spending more time with
@@ -65,7 +60,6 @@ export const data = {
       tools: ["TypeScript", "React", "HTML", "CSS", "Next"],
     },
     {
-      id: 2,
       name: "Restaurant Picker",
       link: "https://github.com/hendraustin/restaurant-picker",
       description: `CLI for picking a random restaurant using a given city/state in conjunction with Yelp

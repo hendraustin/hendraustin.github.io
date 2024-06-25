@@ -5,13 +5,13 @@ export default function Experience() {
   return (
     <div id="experience" className={styles.experience}>
       {data.experience.map((company) => (
-        <div key={company.id} className={styles.experience_item}>
+        <div className={styles.experience_item}>
           <h1>{company.name}</h1>
           <h2>{company.date}</h2>
           <p>{company.description}</p>
           <ul>
-            {company.tools.map((tool) => (
-              <li>{tool}</li>
+            {company.tools.map((tool, index) => (
+              <li key={index}>{tool}</li>
             ))}
           </ul>
         </div>
