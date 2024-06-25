@@ -5,7 +5,7 @@ export default function Experience() {
   return (
     <div id="experience" className={styles.experience}>
       {data.experience.map((company) => (
-        <div className={styles.experience_item}>
+        <div key={company.id} className={styles.experience_item}>
           <h1>{company.name}</h1>
           <h2>{company.date}</h2>
           <p>{company.description}</p>

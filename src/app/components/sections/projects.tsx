@@ -7,6 +7,7 @@ export default function Projects() {
     <div id="projects" className={styles.projects}>
       {data.projects.map((project) => (
         <div
+          key={project.id}
           className={styles.project_item}
           onClick={() => {
             window.location.href = project.link;
