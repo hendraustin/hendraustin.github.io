@@ -39,7 +39,7 @@ export const data = {
       name: "Generac Power Systems",
       date: "2020 - 2022",
       title: "Software Engineer Intern",
-      description: `Worked on various projects in varying languages while earning Bachelor&apos;s degree, such
+      description: `Worked on various projects in varying languages while earning Bachelor's degree, such
           as requirements gathering and building MVP Flutter mobile application for a client,
           meeting weekly to discuss current progress. Also, implemented a regression test suite for
           client-facing site, incorporating 200+ tests into a CI/CD workflow to ensure code
